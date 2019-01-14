@@ -12,7 +12,7 @@ export default class Navbar extends React.Component {
   renderSignedOut() {
     return (
       <div>
-        <button className='sign-up-button' type='button'>Sign Up</button>
+        <button className='sign-up-button' type='button' onClick={this.props.openModal}>Sign Up</button>
         <button className='sign-in-button' type='button'>Sign Up</button>
       </div>
     );
